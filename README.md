@@ -47,12 +47,12 @@ VS Code, LM Studio…) — voir [`config-a-coller.json`](config-a-coller.json) :
 {
   "mcpServers": {
     "convertisseur-ia": {
-      "command": "node",
-      "args": ["C:\\chemin\\vers\\Connecteurs-IA\\convertisseur-ia\\server.js"]
+      "command": "npx",
+      "args": ["-y", "convertisseur-ia-mcp"]
     },
     "ocr-images": {
-      "command": "node",
-      "args": ["C:\\chemin\\vers\\Connecteurs-IA\\ocr-images\\server.js"]
+      "command": "npx",
+      "args": ["-y", "ocr-images-mcp"]
     }
   }
 }
