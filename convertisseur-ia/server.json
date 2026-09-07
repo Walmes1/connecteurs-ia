@@ -1,23 +1,12 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "de.vitalink-atls-education/convertisseur-ia",
-  "description": "Convertit PDF, Word, Excel, PowerPoint, CSV, HTML, JSON, RTF et code en Markdown leger avant lecture par l'IA (jusqu'a -98 % de tokens). Fonctionne entierement en local.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Walmes1/convertisseur-ia",
+  "description": "Documents (PDF, Word, Excel, PowerPoint, CSV) vers Markdown leger pour l'IA, 100 % local",
   "version": "1.0.0",
   "status": "active",
   "websiteUrl": "https://vitalink-atls-education.de",
   "repository": {
     "url": "https://github.com/Walmes1/connecteurs-ia",
     "source": "github"
-  },
-  "packages": [
-    {
-      "registryType": "npm",
-      "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "@vitalink-atls/convertisseur-ia-mcp",
-      "version": "1.0.0",
-      "transport": {
-        "type": "stdio"
-      }
-    }
-  ]
+  }
 }
