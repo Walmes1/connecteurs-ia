@@ -19,6 +19,19 @@ capture d'écran de **~945 tokens image à ~90 tokens de texte**.
 
 ## Installation
 
+Publies au **registre MCP officiel** (`io.github.Walmes1/convertisseur-ia`, `io.github.Walmes1/ocr-images`)
+et sur **npm** : aucune installation manuelle n'est necessaire, `npx` recupere le paquet.
+
+```bash
+npx -y convertisseur-ia-mcp
+```
+
+```bash
+npx -y ocr-images-mcp
+```
+
+Depuis les sources, si tu preferes :
+
 ```bash
 git clone https://github.com/Walmes1/connecteurs-ia.git
 cd connecteurs-ia/convertisseur-ia

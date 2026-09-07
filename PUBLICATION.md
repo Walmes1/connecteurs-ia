@@ -1,7 +1,13 @@
-# 📦 Publication des connecteurs — dossier prêt, rien n'est encore publié
+# 📦 Publication des connecteurs — FAIT le 07.09.2026
 
 **Créateur : Oualid Messaoudi** · **Éditeur : Vitalink ATLS Education GmbH**
 Kipsburg 31, 44263 Dortmund · HRB 38336 · <https://vitalink-atls-education.de> · Licence MIT
+
+
+> ✅ **GitHub** : <https://github.com/Walmes1/connecteurs-ia> (public, tag v1.0.0)
+> ✅ **Registre MCP officiel** : `io.github.Walmes1/convertisseur-ia` · `io.github.Walmes1/ocr-images`
+> ✅ **npm** : `convertisseur-ia-mcp` · `ocr-images-mcp` (compte `walmes1`, sans organisation)
+> ℹ️ Les noms `@vitalink-atls/…` restent disponibles si l'organisation npm est créée un jour.
 
 État au 07.09.2026 : les deux connecteurs sont **complets, testés et signés à ton nom**, avec
 tous les fichiers qu'exige une publication publique. **Aucun envoi n'a été fait** — c'est toi

@@ -2,11 +2,22 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Walmes1/ocr-images",
   "description": "OCR local Windows : PDF scannes, photos et captures vers texte, plus allegement d'images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "active",
   "websiteUrl": "https://vitalink-atls-education.de",
   "repository": {
     "url": "https://github.com/Walmes1/connecteurs-ia",
     "source": "github"
-  }
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "ocr-images-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
 }

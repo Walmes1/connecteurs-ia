@@ -1,7 +1,7 @@
 {
-  "name": "@vitalink-atls/ocr-images-mcp",
-  "mcpName": "de.vitalink-atls-education/ocr-images",
-  "version": "1.0.0",
+  "name": "ocr-images-mcp",
+  "mcpName": "io.github.Walmes1/ocr-images",
+  "version": "1.0.1",
   "description": "Connecteur MCP local : lit les PDF scannes, photos et captures d'ecran avec l'OCR integre a Windows (aucune installation), et allege les images pour la vision de l'IA. 100 % hors ligne.",
   "type": "commonjs",
   "main": "server.js",
@@ -16,7 +16,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "prepack": "node -e \"require('fs').copyFileSync('../_shared/mcp.js','lib/mcp.js')\"",
+    "prepack": "node -e \"const f=require('fs');f.copyFileSync('../_shared/mcp.js','lib/mcp.js');f.copyFileSync('../LICENSE','LICENSE');f.copyFileSync('../README.md','README.md')\"",
     "start": "node server.js"
   },
   "keywords": [

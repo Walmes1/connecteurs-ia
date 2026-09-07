@@ -1,7 +1,7 @@
 {
-  "name": "@vitalink-atls/convertisseur-ia-mcp",
-  "mcpName": "de.vitalink-atls-education/convertisseur-ia",
-  "version": "1.0.0",
+  "name": "convertisseur-ia-mcp",
+  "mcpName": "io.github.Walmes1/convertisseur-ia",
+  "version": "1.0.1",
   "description": "Connecteur MCP local : convertit PDF, Word, Excel, PowerPoint, CSV, HTML, JSON, RTF et code en Markdown leger avant lecture par l'IA (jusqu'a -98 % de tokens). 100 % hors ligne.",
   "type": "commonjs",
   "main": "server.js",
@@ -15,7 +15,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "prepack": "node -e \"require('fs').copyFileSync('../_shared/mcp.js','lib/mcp.js')\"",
+    "prepack": "node -e \"const f=require('fs');f.copyFileSync('../_shared/mcp.js','lib/mcp.js');f.copyFileSync('../LICENSE','LICENSE');f.copyFileSync('../README.md','README.md')\"",
     "start": "node server.js"
   },
   "keywords": [
