@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+*.backup-*
+MON-INSTALLATION.md
+config-a-coller.local.json
+*.tgz

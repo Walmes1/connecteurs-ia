@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "convertisseur-ia": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\chemin\\vers\\Connecteurs-IA\\convertisseur-ia\\server.js"
+      ]
+    },
+    "ocr-images": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\chemin\\vers\\Connecteurs-IA\\ocr-images\\server.js"
+      ]
+    }
+  }
+}

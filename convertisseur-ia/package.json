@@ -1,0 +1,57 @@
+{
+  "name": "@vitalink-atls/convertisseur-ia-mcp",
+  "mcpName": "de.vitalink-atls-education/convertisseur-ia",
+  "version": "1.0.0",
+  "description": "Connecteur MCP local : convertit PDF, Word, Excel, PowerPoint, CSV, HTML, JSON, RTF et code en Markdown leger avant lecture par l'IA (jusqu'a -98 % de tokens). 100 % hors ligne.",
+  "type": "commonjs",
+  "main": "server.js",
+  "bin": {
+    "convertisseur-ia-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepack": "node -e \"require('fs').copyFileSync('../_shared/mcp.js','lib/mcp.js')\"",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "markdown",
+    "pdf",
+    "docx",
+    "xlsx",
+    "tokens",
+    "offline"
+  ],
+  "author": {
+    "name": "Oualid Messaoudi",
+    "url": "https://vitalink-atls-education.de"
+  },
+  "publisher": "Vitalink ATLS Education GmbH",
+  "homepage": "https://vitalink-atls-education.de",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walmes1/connecteurs-ia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Walmes1/connecteurs-ia/issues"
+  }
+}
